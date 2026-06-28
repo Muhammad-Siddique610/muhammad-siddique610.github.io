@@ -1258,8 +1258,8 @@
     // ── CUSTOM CURSOR ─────────────────────────────────────────
     const dot  = document.getElementById('cursorDot');
     const ring = document.getElementById('cursorRing');
-    let mx = window.innerWidth / 2, my = window.innerHeight / 2;
-    let rx = mx, ry = my;
+    let mx = -200, my = -200;
+    let rx = -200, ry = -200;
 
     window.addEventListener('mousemove', e => {
         mx = e.clientX;
